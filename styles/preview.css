@@ -1,0 +1,45 @@
+h1, h2, h3, h4, h5, h6 {color: #37474f;}
+h3{font-size: 1.715rem;}
+.page{
+  position:relative;
+  min-height:-webkit-calc(100% - 44px);
+  min-height:calc(100% - 44px);
+  background:#f1f4f5;
+  color: #76838f;
+}
+.page-header {
+  position: relative;
+  padding: 30px 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background: 0 0;
+  border-bottom: 0;
+}
+.page-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 26px;
+}
+.page-content {
+  padding: 30px 30px;
+}
+.panel {
+  position: relative;
+  margin-bottom: 2.143rem;
+  background-color: #fff;
+  border: 0 solid transparent;
+  border-radius: .286rem;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel-body {
+  position: relative;
+  padding: 30px 30px;
+}
+.page-invoice-table{margin-top:40px;margin-bottom:20px}
+.page-invoice-table tbody{border-bottom:1px solid #e4eaec}
+.page-invoice-table .table>tbody>tr>td,.page-invoice-table .table>tbody>tr>th,.page-invoice-table .table>tfoot>tr>td,.page-invoice-table .table>tfoot>tr>th,.page-invoice-table .table>thead>tr>td,.page-invoice-table .table>thead>tr>th{padding:15px 8px}
+.page-invoice-amount{margin-bottom:40px;padding-top:10px;font-size:20px;border-top:1px solid #e4eaec}
+@media (max-width:767px){
+  .page-invoice .page-content .btn-animate{margin-bottom:10px}
+}
